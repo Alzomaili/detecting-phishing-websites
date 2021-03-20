@@ -3,6 +3,9 @@
 2- Added two algorithms: K-nearest Neighbors (file name: K-nearestNeighbors_new.py), and Multilayer Perceptron (file name: MultilayerPerceptron_new.py)
 3- Graph of preformance metrics of all algorithms can be found in performance_chart.png
 4- The best performing algorithm of the origonal three is random forest. However, Support Vector Machine is very comparable, and possibly better with more fine tuning.
+ 
+NOTE:
+There was an issue with the original SupportVectorMachine and RandomForest code, where the results claimed by the auther could not be replecated exactly since there was one random seed that was missing in both algorithms. This resulted in varying results when running the code multiple times. I modified the algorithms by adding the missing random seed in the files named: SupportVectorMachine_modified and RandomForest_modified. The old code that was only updated can be found in the files named: RandomForest_old_from_html and SupportVectorMachine_old_from_html.
 ######################################################################
 
 
